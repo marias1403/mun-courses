@@ -8,5 +8,6 @@
 	.promo__wrapper {
 		margin: 80px auto 100px;
 		max-width: 850px;
+		padding: 30px;
 	}
 }

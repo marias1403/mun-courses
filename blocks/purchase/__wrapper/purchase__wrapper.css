@@ -7,5 +7,7 @@
 	.purchase__wrapper {
 		max-width: 850px;
 		margin: 60px auto 120px;
+		padding: 0 30px;
+		box-sizing: border-box;
 	}
 }
