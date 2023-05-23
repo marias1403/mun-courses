@@ -1,0 +1,8 @@
+.author__illustration {
+	position: absolute;
+	top: 430px;
+	right: -65px;
+	width: 200px;
+	height: 190px;
+	transform: rotate(-30deg);
+}

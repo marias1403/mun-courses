@@ -1,0 +1,5 @@
+.purchase__cta-wrapper {
+	display: grid;
+	grid-template-columns: 600px 1fr;
+	column-gap: 80px;
+}

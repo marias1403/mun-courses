@@ -1,0 +1,8 @@
+.purchase__icon {
+	width: 70px;
+	height: 70px;
+}
+
+.purchase__icon:last-of-type {
+	padding: 0 0 0 15px;
+}

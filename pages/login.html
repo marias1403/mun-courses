@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Авторские курсы по физике</title>
+	<link rel='stylesheet' href='./index.css'>
+</head>
+<body class='page'>
+<div class='page__container'>
+	<header class='header header_light section'>
+		<div class='header__wrapper header__wrapper_light'>
+			<a class='header__link link' href='#'>
+				<img class='header__logo' src='../images/logo_black.svg' alt='Логотип'>
+			</a>
+			<button class='header__button header__button_light button'>Войти</button>
+		</div>
+	</header>
+	<main class='main main_platform content'>
+		<section class='auth section content__section'>
+			<h1 class='section__subtitle section__subtitle_auth'>Вход</h1>
+			<form class='auth__form'>
+				<label class='auth__label' for='loginName'>Email</label>
+				<input
+					id='loginName'
+					type='text'
+					name='loginName'
+					class='auth__input'
+					placeholder='Имя'
+					aria-label='loginName'
+					minLength='2'
+					maxLength='20'
+					pattern='^[a-zA-Zа-яА-Я\s*\-]+$'
+					required
+				/>
+				<label class='auth__label' for='loginPassword'>Пароль</label>
+				<input
+					id='loginPassword'
+					type='password'
+					name='loginPassword'
+					class='auth__input'
+					placeholder='Пароль'
+					aria-label='loginPassword'
+					minLength='6'
+					maxLength='20'
+					required
+				/>
+				<button type='submit' class='auth__button'>Войти</button>
+				<p class='auth__link'>Ещё не зарегистрированы?<a class='auth__link auth__link_bold link'>Регистрация</a></p>
+			</form>
+		</section>
+	</main>
+</div>
+</body>
+</html>

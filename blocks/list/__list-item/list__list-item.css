@@ -1,0 +1,12 @@
+.list__list-item {
+	background-color: #ffffff;
+	cursor: pointer;
+	transition: all .3s ease-out;
+	position: relative;
+}
+
+.list__list-item:hover {
+	top: 4px;
+	left: 3px;
+	box-shadow: none;
+}

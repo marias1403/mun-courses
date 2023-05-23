@@ -1,0 +1,17 @@
+.trial__list-item {
+	background-color: #CEEAA3;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-between;
+	height: 280px;
+	cursor: pointer;
+	transition: all .3s ease-out;
+	position: relative;
+}
+
+.trial__list-item:hover {
+	top: 4px;
+	left: 3px;
+	box-shadow: none;
+}

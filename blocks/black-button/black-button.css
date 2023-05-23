@@ -1,0 +1,12 @@
+.black-button {
+	margin: 0;
+	width: 220px;
+	height: 45px;
+	background-color: #000000;
+	border-radius: 25px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	box-shadow: none;
+	font-weight: 400;
+}

@@ -1,0 +1,10 @@
+.list__item-title {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: 400;
+	color: #000000;
+	font-family: 'Inter', Arial, sans-serif;
+}

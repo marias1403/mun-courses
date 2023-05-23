@@ -1,0 +1,7 @@
+.author {
+	max-width: 1184px;
+	display: grid;
+	grid-template-columns: 445px 1fr;
+	column-gap: 30px;
+	position: relative;
+}

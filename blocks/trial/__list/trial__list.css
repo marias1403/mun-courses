@@ -1,0 +1,9 @@
+.trial__list {
+	margin: 50px 0 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 30px;
+	align-items: stretch;
+}

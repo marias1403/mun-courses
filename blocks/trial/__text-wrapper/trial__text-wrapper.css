@@ -1,0 +1,7 @@
+.trial__text-wrapper {
+	display: grid;
+	grid-template-columns: 650px 1fr;
+	column-gap: 80px;
+	justify-items: start;
+	align-items: end;
+}

@@ -1,0 +1,6 @@
+.info {
+	max-width: 1184px;
+	display: grid;
+	grid-template-columns: 1fr 400px;
+	column-gap: 80px;
+}
