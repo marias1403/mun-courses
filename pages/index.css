@@ -122,3 +122,5 @@
 @import url(../blocks/auth/__button/auth__button.css);
 @import url(../blocks/auth/__link/auth__link.css);
 @import url(../blocks/auth/__link/_bold/auth__link_bold.css);
+
+@import url(../blocks/page/__tablet/page__tablet.css);

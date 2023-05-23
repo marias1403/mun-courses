@@ -5,3 +5,12 @@
 	width: 360px;
 	height: 500px;
 }
+
+@media screen and (max-width: 1250px) {
+	.promo__image {
+		width: 260px;
+		height: 363px;
+		top: -30px;
+		right: 0;
+	}
+}

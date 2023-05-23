@@ -2,3 +2,10 @@
 	font-size: 48px;
 	line-height: 56px;
 }
+
+@media screen and (max-width: 1250px) {
+	.section__subtitle_cta {
+		font-size: 36px;
+		line-height: 42px;
+	}
+}

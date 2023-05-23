@@ -9,3 +9,10 @@
 	font-family: 'Unbounded', Arial, sans-serif;
 	white-space: pre-wrap;
 }
+
+@media screen and (max-width: 1250px) {
+	.section__subtitle {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}

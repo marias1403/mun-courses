@@ -5,3 +5,10 @@
 	justify-items: start;
 	align-items: end;
 }
+
+@media screen and (max-width: 1250px) {
+	.trial__text-wrapper {
+		grid-template-columns: 400px 1fr;
+		column-gap: 50px;
+	}
+}

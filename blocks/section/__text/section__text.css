@@ -9,3 +9,10 @@
 	font-family: 'Inter', Arial, sans-serif;
 	white-space: pre-wrap;
 }
+
+@media screen and (max-width: 1250px) {
+	.section__text {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}

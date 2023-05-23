@@ -2,3 +2,10 @@
 	margin: 80px auto 150px;
 	max-width: 1184px;
 }
+
+@media screen and (max-width: 1250px) {
+	.purchase__wrapper {
+		max-width: 850px;
+		margin: 60px auto 120px;
+	}
+}

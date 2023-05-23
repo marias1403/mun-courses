@@ -2,3 +2,10 @@
 	font-size: 32px;
 	line-height: 36px;
 }
+
+@media screen and (max-width: 1250px) {
+	.section__subtitle_purchase {
+		font-size: 28px;
+		line-height: 32px;
+	}
+}

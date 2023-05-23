@@ -6,3 +6,10 @@
 .purchase__icon:last-of-type {
 	padding: 0 0 0 15px;
 }
+
+@media screen and (max-width: 1250px) {
+	.purchase__icon {
+		width: 60px;
+		height: 60px;
+	}
+}

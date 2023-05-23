@@ -3,3 +3,9 @@
 	flex-shrink: 0;
 	grid-row-gap: 120px;
 }
+
+@media screen and (max-width: 1250px) {
+	.content {
+		grid-row-gap: 80px;
+	}
+}

@@ -6,3 +6,9 @@
 	align-items: center;
 	justify-content: space-between;
 }
+
+@media screen and (max-width: 1250px) {
+	.purchase__contacts {
+		margin: 80px 0 0;
+	}
+}

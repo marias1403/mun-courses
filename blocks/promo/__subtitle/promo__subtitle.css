@@ -7,3 +7,10 @@
 	font-weight: 500;
 	color: #ffffff;
 }
+
+@media screen and (max-width: 1250px) {
+	.promo__subtitle {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}

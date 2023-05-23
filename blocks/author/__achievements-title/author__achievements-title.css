@@ -8,3 +8,11 @@
 	color: #000000;
 	font-family: 'Unbounded', Arial, sans-serif;
 }
+
+@media screen and (max-width: 1250px) {
+	.author__achievements-title {
+		margin: 5px 0 0;
+		font-size: 28px;
+		line-height: 32px;
+	}
+}
