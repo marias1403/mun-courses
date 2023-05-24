@@ -12,3 +12,11 @@
 		object-fit: cover;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.author__photo {
+		width: 290px;
+		height: 450px;
+		box-shadow: 4px 4px 0 #000000;
+	}
+}

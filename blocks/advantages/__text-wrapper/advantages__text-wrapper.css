@@ -12,3 +12,10 @@
 		column-gap: 60px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.advantages__text-wrapper {
+		grid-template-columns: 1fr;
+		row-gap: 10px;
+	}
+}

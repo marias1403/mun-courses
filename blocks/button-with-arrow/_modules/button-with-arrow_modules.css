@@ -1,3 +1,9 @@
 .button-with-arrow_modules {
 	margin: 10px 0 0;
 }
+
+@media screen and (max-width: 767px) {
+	.button-with-arrow_modules {
+		margin: 5px 0 0;
+	}
+}

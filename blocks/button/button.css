@@ -16,3 +16,15 @@
 	left: 3px;
 	box-shadow: none;
 }
+
+@media screen and (max-width: 767px) {
+	.button {
+		box-shadow: 2px 3px 0 #000000;
+	}
+
+	.button:hover {
+		top: 3px;
+		left: 2px;
+		box-shadow: none;
+	}
+}

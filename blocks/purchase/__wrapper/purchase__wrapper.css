@@ -11,3 +11,9 @@
 		box-sizing: border-box;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.purchase__wrapper {
+		padding: 0 15px;
+	}
+}

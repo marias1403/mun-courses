@@ -13,3 +13,14 @@
 		height: 60px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.purchase__icon {
+		width: 45px;
+		height: 45px;
+	}
+
+	.purchase__icon:last-of-type {
+		padding: 0 0 0 10px;
+	}
+}

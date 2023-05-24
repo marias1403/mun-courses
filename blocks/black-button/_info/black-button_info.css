@@ -1,3 +1,9 @@
 .black-button_info {
 	margin: 40px 0 0;
 }
+
+@media screen and (max-width: 767px) {
+	.black-button_info {
+		margin: 30px 0 0;
+	}
+}

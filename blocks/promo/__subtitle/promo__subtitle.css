@@ -14,3 +14,10 @@
 		line-height: 32px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.promo__subtitle {
+		font-size: 20px;
+		line-height: 24px;
+	}
+}

@@ -11,3 +11,10 @@
 		column-gap: 50px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.info {
+		grid-template-columns: 1fr;
+		row-gap: 20px;
+	}
+}

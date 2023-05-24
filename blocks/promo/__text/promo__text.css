@@ -16,3 +16,11 @@
 		line-height: 18px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.promo__text {
+		margin: 10px 0 0;
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

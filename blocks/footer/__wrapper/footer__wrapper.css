@@ -11,3 +11,10 @@
 		box-sizing: border-box;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.footer__wrapper {
+		margin: 40px auto 0;
+		padding: 0 25px;
+	}
+}

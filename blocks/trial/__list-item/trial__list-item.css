@@ -15,3 +15,12 @@
 	left: 3px;
 	box-shadow: none;
 }
+
+@media screen and (max-width: 767px) {
+	.trial__list-item {
+		width: 290px;
+		height: 320px;
+		padding: 30px;
+		box-sizing: border-box;
+	}
+}

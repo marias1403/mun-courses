@@ -3,3 +3,11 @@
 	height: 10px;
 	padding: 0 0 0 8px;
 }
+
+@media screen and (max-width: 767px) {
+	.button-with-arrow__arrow {
+		width: 12px;
+		height: 8px;
+		padding: 0 0 0 5px;
+	}
+}

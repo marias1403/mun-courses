@@ -10,3 +10,11 @@
 		padding: 35px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.block {
+		padding: 20px;
+		border-radius: 20px;
+		box-shadow: 4px 4px 0 #000000;
+	}
+}

@@ -19,3 +19,11 @@
 		row-gap: 30px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.modules__list {
+		margin: 20px 0 0;
+		grid-template-columns: 1fr;
+		row-gap: 15px;
+	}
+}

@@ -16,3 +16,12 @@
 		row-gap: 35px;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.author__achievements {
+		margin: 40px 0 0;
+		grid-template-columns: repeat(2, 112px);
+		column-gap: 25px;
+		row-gap: 35px;
+	}
+}

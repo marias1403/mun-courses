@@ -13,3 +13,11 @@
 		justify-items: start;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.author {
+		grid-template-columns: 1fr;
+		row-gap: 20px;
+		justify-items: start;
+	}
+}

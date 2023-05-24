@@ -3,3 +3,10 @@
 	font-size: 28px;
 	line-height: 32px;
 }
+
+@media screen and (max-width: 767px) {
+	.section__subtitle_modules {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}

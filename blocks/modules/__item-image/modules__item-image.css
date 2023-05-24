@@ -2,3 +2,10 @@
 	width: 130px;
 	height: 125px;
 }
+
+@media screen and (max-width: 767px) {
+	.modules__item-image {
+		width: 70px;
+		height: 67px;
+	}
+}
