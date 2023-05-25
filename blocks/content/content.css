@@ -9,9 +9,3 @@
 		grid-row-gap: 80px;
 	}
 }
-
-@media screen and (max-width: 767px) {
-	.content {
-		grid-row-gap: 60px;
-	}
-}

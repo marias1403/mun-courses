@@ -29,9 +29,9 @@
 
 @media screen and (max-width: 767px) {
 	.button-with-arrow {
-		font-size: 12px;
-		line-height: 14px;
-		height: 14px;
-		width: 150px;
+		font-size: 14px;
+		line-height: 16px;
+		height: 16px;
+		width: 170px;
 	}
 }

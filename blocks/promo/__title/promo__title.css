@@ -13,15 +13,7 @@
 @media screen and (max-width: 1250px) {
 	.promo__title {
 		margin: 20px 0 0;
-		font-size: 40px;
-		line-height: 48px;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.promo__title {
-		margin: 20px 0 0;
-		font-size: 36px;
-		line-height: 42px;
+		font-size: 46px;
+		line-height: 52px;
 	}
 }

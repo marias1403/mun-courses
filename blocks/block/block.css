@@ -13,8 +13,6 @@
 
 @media screen and (max-width: 767px) {
 	.block {
-		padding: 30px;
-		border-radius: 25px;
 		box-shadow: 4px 4px 0 #000000;
 	}
 }
