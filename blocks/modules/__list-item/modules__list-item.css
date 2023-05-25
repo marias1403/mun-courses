@@ -20,9 +20,10 @@
 	.modules__list-item {
 		flex-direction: row;
 		align-items: center;
-		width: 290px;
+		justify-content: start;
+		max-width: 400px;
 		height: 130px;
 		box-sizing: border-box;
-		column-gap: 10px;
+		column-gap: 20px;
 	}
 }

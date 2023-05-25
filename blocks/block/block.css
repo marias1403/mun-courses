@@ -7,14 +7,14 @@
 
 @media screen and (max-width: 1250px) {
 	.block {
-		padding: 35px;
+		padding: 40px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.block {
-		padding: 20px;
-		border-radius: 20px;
+		padding: 30px;
+		border-radius: 25px;
 		box-shadow: 4px 4px 0 #000000;
 	}
 }

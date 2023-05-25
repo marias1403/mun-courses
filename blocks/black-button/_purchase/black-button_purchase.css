@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 767px) {
 	.black-button_purchase {
+		margin: 25px 0 0;
 		width: 250px;
 		height: 50px;
 	}

@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 767px) {
 	.page__tablet {
+		max-width: 560px;
 		padding: 0 15px;
 	}
 }
