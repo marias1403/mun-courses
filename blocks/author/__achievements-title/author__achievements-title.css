@@ -9,10 +9,10 @@
 	font-family: 'Unbounded', Arial, sans-serif;
 }
 
-/*@media screen and (max-width: 1250px) {*/
-/*	.author__achievements-title {*/
-/*		margin: 5px 0 0;*/
-/*		font-size: 28px;*/
-/*		line-height: 32px;*/
-/*	}*/
-/*}*/
+@media screen and (max-width: 767px) {
+	.author__achievements-title {
+		font-size: 28px;
+		line-height: 32px;
+		text-align: center;
+	}
+}

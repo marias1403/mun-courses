@@ -1,3 +1,9 @@
 .section__title_author {
-	margin: 15px 0 0;
+	margin: 10px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+	.section__title_author {
+		text-align: center;
+	}
 }

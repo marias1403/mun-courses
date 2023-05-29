@@ -1,20 +1,23 @@
 .info {
-	max-width: 1184px;
+	max-width: 1304px;
 	display: grid;
 	grid-template-columns: 1fr 400px;
-	column-gap: 80px;
+	column-gap: 100px;
+	position: relative;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1023px) {
 	.info {
-		grid-template-columns: 1fr 320px;
-		column-gap: 50px;
+		grid-template-columns: 1fr 330px;
+		column-gap: 40px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.info {
 		grid-template-columns: 1fr;
-		row-gap: 40px;
+		row-gap: 50px;
+		justify-content: center;
+		justify-items: center;
 	}
 }

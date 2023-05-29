@@ -10,16 +10,9 @@
 	white-space: pre-wrap;
 }
 
-/*@media screen and (max-width: 1250px) {*/
-/*	.section__text {*/
-/*		font-size: 16px;*/
-/*		line-height: 24px;*/
-/*	}*/
-/*}*/
-
-/*!*@media screen and (max-width: 767px) {*!*/
-/*!*	.section__text {*!*/
-/*!*		font-size: 12px;*!*/
-/*!*		line-height: 18px;*!*/
-/*!*	}*!*/
-/*!*}*!*/
+@media screen and (max-width: 1023px) {
+	.section__text {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}

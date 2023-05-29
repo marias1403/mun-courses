@@ -8,9 +8,29 @@
 	color: #ffffff;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
+	.promo__subtitle {
+		font-size: 28px;
+		line-height: 32px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
 	.promo__subtitle {
 		font-size: 24px;
-		line-height: 32px;
+		line-height: 28px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.promo__subtitle {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 534px) {
+	.promo__subtitle {
+		font-size: 20px;
+		line-height: 24px;
 	}
 }

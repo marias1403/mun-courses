@@ -1,0 +1,9 @@
+.section__subtitle_advantages {
+	margin: 10px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+	.section__subtitle_advantages {
+		text-align: center;
+	}
+}

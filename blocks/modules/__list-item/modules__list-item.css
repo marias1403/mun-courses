@@ -8,6 +8,7 @@
 	cursor: pointer;
 	transition: all .3s ease-out;
 	position: relative;
+	box-sizing: content-box;
 }
 
 .modules__list-item:hover {

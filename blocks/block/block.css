@@ -1,13 +1,13 @@
 .block {
-	padding: 50px;
+	padding: 50px 40px;;
 	background-color: #E8F2FF;
 	border-radius: 30px;
 	box-shadow: 5px 5px 0 #000000;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1023px) {
 	.block {
-		padding: 40px;
+		padding: 40px 30px;
 	}
 }
 

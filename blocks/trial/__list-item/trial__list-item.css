@@ -8,6 +8,7 @@
 	cursor: pointer;
 	transition: all .3s ease-out;
 	position: relative;
+	box-sizing: content-box;
 }
 
 .trial__list-item:hover {
@@ -18,8 +19,8 @@
 
 @media screen and (max-width: 767px) {
 	.trial__list-item {
-		width: 290px;
-		height: 350px;
+		max-width: 350px;
+		height: 400px;
 		box-sizing: border-box;
 	}
 }

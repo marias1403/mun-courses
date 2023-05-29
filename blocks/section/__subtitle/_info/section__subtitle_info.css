@@ -1,6 +1,8 @@
 .section__subtitle_info {
 	margin: 0 0 30px;
 	color: #4D96FF;
+	font-size: 40px;
+	line-height: 36px;
 }
 
 @media screen and (max-width: 767px) {

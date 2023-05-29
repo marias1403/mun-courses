@@ -10,10 +10,31 @@
 	white-space: pre-wrap;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
 	.promo__title {
 		margin: 20px 0 0;
-		font-size: 46px;
+		font-size: 48px;
 		line-height: 52px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.promo__title {
+		margin: 20px 0 0;
+		font-size: 40px;
+		line-height: 42px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.promo__title {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 534px) {
+	.promo__title {
+		font-size: 32px;
+		line-height: 34px;
 	}
 }

@@ -1,3 +1,9 @@
 .section__text_advantages {
-	margin: 10px 0 0;
+	margin: 15px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+	.section__text_advantages {
+		text-align: center;
+	}
 }

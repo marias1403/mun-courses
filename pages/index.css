@@ -10,7 +10,9 @@
 @import url(../blocks/section/__text/section__text.css);
 @import url(../blocks/section/__subtitle/section__subtitle.css);
 @import url(../blocks/section/__subtitle/_info/section__subtitle_info.css);
+@import url(../blocks/section/__subtitle/_advantages/section__subtitle_advantages.css);
 @import url(../blocks/section/__subtitle/_trial/section__subtitle_trial.css);
+@import url(../blocks/section/__subtitle/_trial-text/section__subtitle_trial-text.css);
 @import url(../blocks/section/__subtitle/_modules/section__subtitle_modules.css);
 @import url(../blocks/section/__subtitle/_purchase/section__subtitle_purchase.css);
 @import url(../blocks/section/__subtitle/_cta/section__subtitle_cta.css);
@@ -21,6 +23,7 @@
 @import url(../blocks/section/__subtitle/_auth/section__subtitle_auth.css);
 @import url(../blocks/section/__title/_author/section__title_author.css);
 @import url(../blocks/section/__title/_info/section__title_info.css);
+@import url(../blocks/section/__title/_advantages/section__title_advantages.css);
 @import url(../blocks/section/__text/_author/section__text_author.css);
 @import url(../blocks/section/__text/_advantages/section__text_advantages.css);
 @import url(../blocks/section/__text/_info/section__text_info.css);
@@ -30,6 +33,9 @@
 @import url(../blocks/section/__text/_footer/section__text_footer.css);
 @import url(../blocks/section/__text/_platform-item/section__text_platform-item.css);
 @import url(../blocks/section/__text/_list/section__text_list.css);
+@import url(../blocks/section/__text/_info-list/section__text_info-list.css);
+@import url(../blocks/section/__text/_trial/section__text_trial.css);
+@import url(../blocks/section/__text/_achievements/section__text_achievements.css);
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__section/content__section.css);
@@ -50,7 +56,10 @@
 @import url(../blocks/button-with-arrow/_modules/button-with-arrow_modules.css);
 @import url(../blocks/button-with-arrow/_platform/button-with-arrow_platform.css);
 @import url(../blocks/button-with-arrow/_list/button-with-arrow_list.css);
+
 @import url(../blocks/block/block.css);
+@import url(../blocks/block/_trial/block_trial.css);
+@import url(../blocks/block/_modules/block_modules.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_light/header_light.css);
@@ -64,9 +73,11 @@
 
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/_platform/main_platform.css);
+@import url(../blocks/main/__illustration/main__illustration.css);
 
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__wrapper/promo__wrapper.css);
+@import url(../blocks/promo/__text-wrapper/promo__text-wrapper.css);
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__subtitle/promo__subtitle.css);
 @import url(../blocks/promo/__text/promo__text.css);
@@ -74,16 +85,17 @@
 @import url(../blocks/promo/__image/promo__image.css);
 
 @import url(../blocks/author/author.css);
-@import url(../blocks/author/__illustration/author__illustration.css);
 @import url(../blocks/author/__photo/author__photo.css);
+@import url(../blocks/author/__text-wrapper/author__text-wrapper.css);
 @import url(../blocks/author/__title/author__title.css);
 @import url(../blocks/author/__achievements/author__achievements.css);
 @import url(../blocks/author/__achievements-title/author__achievements-title.css);
 @import url(../blocks/author/__achievements-subtitle/author__achievements-subtitle.css);
 
 @import url(../blocks/advantages/advantages.css);
-@import url(../blocks/advantages/__text-wrapper/advantages__text-wrapper.css);
 @import url(../blocks/advantages/__wrapper/advantages__wrapper.css);
+@import url(../blocks/advantages/__list-wrapper/advantages__list-wrapper.css);
+@import url(../blocks/advantages/__list-item/advantages__list-item.css);
 
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__text-wrapper/info__text-wrapper.css);
@@ -91,11 +103,13 @@
 @import url(../blocks/info/__list/info__list.css);
 @import url(../blocks/info/__list-item/info__list-item.css);
 @import url(../blocks/info/__list-number/info__list-number.css);
+@import url(../blocks/info/__illustration/info__illustration.css);
 
 @import url(../blocks/trial/trial.css);
 @import url(../blocks/trial/__text-wrapper/trial__text-wrapper.css);
 @import url(../blocks/trial/__list/trial__list.css);
 @import url(../blocks/trial/__list-item/trial__list-item.css);
+@import url(../blocks/trial/__illustration/trial__illustration.css);
 
 @import url(../blocks/modules/modules.css);
 @import url(../blocks/modules/__list/modules__list.css);
@@ -124,5 +138,3 @@
 @import url(../blocks/auth/__button/auth__button.css);
 @import url(../blocks/auth/__link/auth__link.css);
 @import url(../blocks/auth/__link/_bold/auth__link_bold.css);
-
-@import url(../blocks/page/__tablet/page__tablet.css);

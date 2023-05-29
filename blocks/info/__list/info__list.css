@@ -8,9 +8,3 @@
 	justify-content: start;
 	gap: 20px;
 }
-
-@media screen and (max-width: 767px) {
-	.info__list {
-		row-gap: 15px;
-	}
-}

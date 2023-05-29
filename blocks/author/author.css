@@ -1,22 +1,30 @@
 .author {
-	max-width: 1184px;
+	max-width: 1304px;
 	display: grid;
 	grid-template-columns: 445px 1fr;
-	column-gap: 30px;
-	position: relative;
+	column-gap: 80px;
+	align-items: center;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
 	.author {
-		grid-template-columns: 280px 1fr;
-		column-gap: 20px;
+		grid-template-columns: 350px 1fr;
+		column-gap: 60px;
 		justify-items: start;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.author {
+		grid-template-columns: 300px 1fr;
+		column-gap: 40px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.author {
 		grid-template-columns: 1fr;
-		row-gap: 20px;
+		row-gap: 50px;
+		justify-items: center;
 	}
 }

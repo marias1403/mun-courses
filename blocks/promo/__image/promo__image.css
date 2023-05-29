@@ -1,22 +1,25 @@
 .promo__image {
-	position: absolute;
-	top: -35px;
-	right: 70px;
-	width: 360px;
-	height: 500px;
+	width: 400px;
+	height: 450px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
 	.promo__image {
-		width: 260px;
-		height: 363px;
-		top: -30px;
-		right: 30px;
+		width: 350px;
+		height: 394px;
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
 	.promo__image {
-		display: none;
+		width: 300px;
+		height: 338px;
+	}
+}
+
+@media screen and (max-width: 534px) {
+	.promo__image {
+		width: 250px;
+		height: 282px;
 	}
 }

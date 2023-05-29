@@ -1,0 +1,9 @@
+.block_trial {
+	padding: 60px 50px;
+}
+
+@media screen and (max-width: 1200px) {
+	.block_trial {
+		padding: 50px 40px;
+	}
+}

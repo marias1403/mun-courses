@@ -1,16 +1,32 @@
 .promo__button {
 	margin: 80px 0 0;
 	width: 300px;
-	height: 50px;
+	height: 60px;
 	background-color: #CEEAA3;
-	border-radius: 25px;
-	font-size: 14px;
+	border-radius: 30px;
+	font-size: 16px;
 	line-height: 18px;
 	color: #000000;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
 	.promo__button {
 		margin: 60px 0 0;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.promo__button {
+		margin: 50px 0 0;
+		width: 280px;
+		height: 50px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+}
+
+@media screen and (max-width: 534px) {
+	.promo__button {
+		width: 100%;
 	}
 }

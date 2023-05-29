@@ -1,5 +1,7 @@
 .section__subtitle_trial {
 	margin: 15px 0 0;
+	font-size: 36px;
+	line-height: 32px;
 }
 
 @media screen and (max-width: 1250px) {

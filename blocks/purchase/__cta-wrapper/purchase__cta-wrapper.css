@@ -1,7 +1,8 @@
 .purchase__cta-wrapper {
 	display: grid;
-	grid-template-columns: 600px 1fr;
-	column-gap: 80px;
+	grid-template-columns: 550px 1fr;
+	column-gap: 40px;
+	align-items: center;
 }
 
 @media screen and (max-width: 1250px) {

@@ -1,5 +1,6 @@
 .section__text_author {
-	margin: 30px 0 0;
+	margin: 20px 0 0;
+	max-width: 550px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -11,5 +12,6 @@
 @media screen and (max-width: 767px) {
 	.section__text_author {
 		margin: 10px 0 0;
+		text-align: center;
 	}
 }

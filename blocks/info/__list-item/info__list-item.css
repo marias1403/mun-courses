@@ -1,7 +1,7 @@
 .info__list-item {
 	display: flex;
 	flex-direction: row;
-	column-gap: 20px;
+	column-gap: 10px;
 	justify-content: start;
 	align-items: center;
 }

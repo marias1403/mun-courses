@@ -1,21 +1,22 @@
 .trial__text-wrapper {
 	display: grid;
 	grid-template-columns: 650px 1fr;
-	column-gap: 80px;
+	column-gap: 60px;
 	justify-items: start;
 	align-items: end;
+	position: relative;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
 	.trial__text-wrapper {
-		grid-template-columns: 400px 1fr;
+		grid-template-columns: 480px 1fr;
 		column-gap: 50px;
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
 	.trial__text-wrapper {
 		grid-template-columns: 1fr;
-		row-gap: 10px;
+		row-gap: 30px;
 	}
 }

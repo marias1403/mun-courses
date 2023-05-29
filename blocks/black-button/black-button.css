@@ -1,11 +1,11 @@
 .black-button {
 	margin: 0;
 	width: 100%;
-	max-width: 250px;
-	height: 50px;
+	max-width: 300px;
+	height: 60px;
 	background-color: #000000;
-	border-radius: 25px;
-	font-size: 14px;
+	border-radius: 30px;
+	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
 	box-shadow: none;
