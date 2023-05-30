@@ -1,3 +1,10 @@
 .section__subtitle_footer {
 	color: #ffffff;
 }
+
+@media screen and (max-width: 767px) {
+	.section__subtitle_footer {
+		font-size: 20px;
+		line-height: 24px;
+	}
+}

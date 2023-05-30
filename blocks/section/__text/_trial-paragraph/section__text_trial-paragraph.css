@@ -1,3 +1,7 @@
+.section__text_trial-paragraph {
+	margin: 5px 0 0;
+}
+
 @media screen and (max-width: 1023px) {
 	.section__text_trial-paragraph {
 		text-align: center;

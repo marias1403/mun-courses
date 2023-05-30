@@ -17,6 +17,7 @@
 @media screen and (max-width: 1023px) {
 	.promo__wrapper {
 		margin: 60px auto 80px;
+		max-width: 820px;
 	}
 }
 

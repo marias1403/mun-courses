@@ -6,6 +6,12 @@
 	justify-content: start;
 }
 
+@media screen and (max-width: 1023px) {
+	.trial {
+		max-width: 900px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.trial {
 		align-items: center;

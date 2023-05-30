@@ -17,7 +17,7 @@
 @media screen and (max-width: 1023px) {
 	.trial__text-wrapper {
 		grid-template-columns: 1fr;
-		row-gap: 30px;
+		row-gap: 15px;
 		justify-items: center;
 		margin: 0 auto;
 	}

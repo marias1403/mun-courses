@@ -14,7 +14,6 @@
 @import url(../blocks/section/__subtitle/_trial/section__subtitle_trial.css);
 @import url(../blocks/section/__subtitle/_trial-text/section__subtitle_trial-text.css);
 @import url(../blocks/section/__subtitle/_trial-subtitle/section__subtitle_trial-subtitle.css);
-@import url(../blocks/section/__subtitle/_trial-paragraph/section__text_trial-paragraph.css);
 @import url(../blocks/section/__subtitle/_modules/section__subtitle_modules.css);
 @import url(../blocks/section/__subtitle/_purchase/section__subtitle_purchase.css);
 @import url(../blocks/section/__subtitle/_cta/section__subtitle_cta.css);
@@ -40,6 +39,7 @@
 @import url(../blocks/section/__text/_info-list/section__text_info-list.css);
 @import url(../blocks/section/__text/_trial/section__text_trial.css);
 @import url(../blocks/section/__text/_achievements/section__text_achievements.css);
+@import url(../blocks/section/__text/_trial-paragraph/section__text_trial-paragraph.css);
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__section/content__section.css);
@@ -54,7 +54,6 @@
 @import url(../blocks/black-button/_info/black-button_info.css);
 @import url(../blocks/black-button/_purchase/black-button_purchase.css);
 @import url(../blocks/black-button/_list/black-button_list.css);
-@import url(../blocks/black-button/_trial/black-button_trial.css);
 @import url(../blocks/button-with-arrow/button-with-arrow.css);
 @import url(../blocks/button-with-arrow/__arrow/button-with-arrow__arrow.css);
 @import url(../blocks/button-with-arrow/__arrow/_list/button-with-arrow__arrow_list.css);
@@ -78,7 +77,6 @@
 
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/_platform/main_platform.css);
-@import url(../blocks/main/__illustration/main__illustration.css);
 
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__wrapper/promo__wrapper.css);
@@ -108,7 +106,6 @@
 @import url(../blocks/info/__list/info__list.css);
 @import url(../blocks/info/__list-item/info__list-item.css);
 @import url(../blocks/info/__list-number/info__list-number.css);
-@import url(../blocks/info/__illustration/info__illustration.css);
 
 @import url(../blocks/trial/trial.css);
 @import url(../blocks/trial/__text-wrapper/trial__text-wrapper.css);
@@ -132,6 +129,7 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/page/__footer/page__footer.css);
 
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/__list-item/list__list-item.css);

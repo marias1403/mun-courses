@@ -2,13 +2,14 @@
 	max-width: 1304px;
 	display: grid;
 	grid-template-columns: 1fr 400px;
-	column-gap: 100px;
+	column-gap: 80px;
 	position: relative;
 }
 
 @media screen and (max-width: 1023px) {
 	.info {
-		grid-template-columns: 1fr 330px;
+		max-width: 900px;
+		grid-template-columns: 1fr 350px;
 		column-gap: 40px;
 	}
 }
