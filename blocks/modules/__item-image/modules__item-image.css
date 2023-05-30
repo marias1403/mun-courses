@@ -3,9 +3,16 @@
 	height: 125px;
 }
 
+@media screen and (max-width: 1100px) {
+	.modules__item-image {
+		width: 100px;
+		height: 96px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.modules__item-image {
-		width: 70px;
-		height: 67px;
+		width: 60px;
+		height: 58px;
 	}
 }

@@ -1,0 +1,26 @@
+.purchase__illustration {
+	width: 500px;
+	height: 458px;
+}
+
+@media screen and (max-width: 1200px) {
+	.purchase__illustration {
+		width: 400px;
+		height: 366px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.purchase__illustration {
+		width: 300px;
+		height: 275px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.purchase__illustration {
+		max-width: 400px;
+		width: 100%;
+		height: 100%;
+	}
+}

@@ -19,8 +19,8 @@
 
 @media screen and (max-width: 767px) {
 	.trial__list-item {
-		max-width: 350px;
-		height: 400px;
+		max-width: 300px;
+		height: 350px;
 		box-sizing: border-box;
 	}
 }

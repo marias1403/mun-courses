@@ -13,6 +13,8 @@
 @import url(../blocks/section/__subtitle/_advantages/section__subtitle_advantages.css);
 @import url(../blocks/section/__subtitle/_trial/section__subtitle_trial.css);
 @import url(../blocks/section/__subtitle/_trial-text/section__subtitle_trial-text.css);
+@import url(../blocks/section/__subtitle/_trial-subtitle/section__subtitle_trial-subtitle.css);
+@import url(../blocks/section/__subtitle/_trial-paragraph/section__text_trial-paragraph.css);
 @import url(../blocks/section/__subtitle/_modules/section__subtitle_modules.css);
 @import url(../blocks/section/__subtitle/_purchase/section__subtitle_purchase.css);
 @import url(../blocks/section/__subtitle/_cta/section__subtitle_cta.css);
@@ -24,6 +26,8 @@
 @import url(../blocks/section/__title/_author/section__title_author.css);
 @import url(../blocks/section/__title/_info/section__title_info.css);
 @import url(../blocks/section/__title/_advantages/section__title_advantages.css);
+@import url(../blocks/section/__title/_modules/section__title_modules.css);
+@import url(../blocks/section/__title/_trial/section__title_trial.css);
 @import url(../blocks/section/__text/_author/section__text_author.css);
 @import url(../blocks/section/__text/_advantages/section__text_advantages.css);
 @import url(../blocks/section/__text/_info/section__text_info.css);
@@ -50,6 +54,7 @@
 @import url(../blocks/black-button/_info/black-button_info.css);
 @import url(../blocks/black-button/_purchase/black-button_purchase.css);
 @import url(../blocks/black-button/_list/black-button_list.css);
+@import url(../blocks/black-button/_trial/black-button_trial.css);
 @import url(../blocks/button-with-arrow/button-with-arrow.css);
 @import url(../blocks/button-with-arrow/__arrow/button-with-arrow__arrow.css);
 @import url(../blocks/button-with-arrow/__arrow/_list/button-with-arrow__arrow_list.css);
@@ -120,6 +125,8 @@
 @import url(../blocks/purchase/purchase.css);
 @import url(../blocks/purchase/__wrapper/purchase__wrapper.css);
 @import url(../blocks/purchase/__cta-wrapper/purchase__cta-wrapper.css);
+@import url(../blocks/purchase/__illustration/purchase__illustration.css);
+@import url(../blocks/purchase/__text-wrapper/purchase__text-wrapper.css);
 @import url(../blocks/purchase/__contacts/purchase__contacts.css);
 @import url(../blocks/purchase/__icon/purchase__icon.css);
 

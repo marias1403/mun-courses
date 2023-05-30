@@ -1,0 +1,6 @@
+@media screen and (max-width: 1023px) {
+	.section__title_modules {
+		margin: 0 auto;
+		text-align: center;
+	}
+}

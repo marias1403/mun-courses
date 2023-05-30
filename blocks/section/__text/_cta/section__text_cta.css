@@ -7,3 +7,10 @@
 		margin: 10px 0 0;
 	}
 }
+
+@media screen and (max-width: 767px) {
+	.section__text_cta {
+		max-width: 550px;
+		text-align: center;
+	}
+}

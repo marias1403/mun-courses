@@ -1,3 +1,22 @@
 .block_modules {
-	padding: 60px 50px;
+	padding: 45px;
+}
+
+@media screen and (max-width: 1150px) {
+	.block_modules {
+		padding: 35px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.block_modules {
+		padding: 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.block_modules {
+		padding: 20px;
+		border-radius: 25px;
+	}
 }

@@ -1,3 +1,13 @@
 .trial {
 	max-width: 1304px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: start;
+}
+
+@media screen and (max-width: 767px) {
+	.trial {
+		align-items: center;
+	}
 }
