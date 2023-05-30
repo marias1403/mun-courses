@@ -1,6 +1,7 @@
 .modules__list {
 	margin: 50px 0 0;
 	padding: 0;
+	width: 100%;
 	list-style: none;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -34,5 +35,8 @@
 		margin: 40px auto 0;
 		grid-template-columns: 1fr;
 		row-gap: 20px;
+		justify-content: center;
+		align-content: center;
+		max-width: 450px;
 	}
 }

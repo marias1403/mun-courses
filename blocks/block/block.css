@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 767px) {
 	.block {
-		padding: 30px;
+		padding: 30px 25px;
 		box-shadow: 4px 4px 0 #000000;
 	}
 }
