@@ -135,6 +135,7 @@
 @import url(../blocks/list/__item-title/list__item-title.css);
 @import url(../blocks/list/__item-title/_lesson/list__item-title_lesson.css);
 @import url(../blocks/list/__list/list__list.css);
+@import url(../blocks/list/__video/list__video.css);
 
 @import url(../blocks/auth/auth.css);
 @import url(../blocks/auth/__form/auth__form.css);
