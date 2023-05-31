@@ -144,3 +144,11 @@
 @import url(../blocks/auth/__button/auth__button.css);
 @import url(../blocks/auth/__link/auth__link.css);
 @import url(../blocks/auth/__link/_bold/auth__link_bold.css);
+
+@import url(../blocks/search/search.css);
+@import url(../blocks/page/__search/page__search.css);
+@import url(../blocks/search/__wrapper/search__wrapper.css);
+@import url(../blocks/search/__form/search__form.css);
+@import url(../blocks/search/__input/search__input.css);
+@import url(../blocks/search/__button/search__button.css);
+@import url(../blocks/search/__button/_clear/search__button_clear.css);
